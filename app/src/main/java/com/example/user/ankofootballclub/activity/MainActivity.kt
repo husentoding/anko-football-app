@@ -21,9 +21,10 @@ class MainActivity : AppCompatActivity() {
             rvClub = recyclerView()
         }
         val listener : (Club) -> Unit = {
-            val intent = Intent(this@MainActivity, DetailClubActivity::class.java)
-            intent.putExtra("CLUB", it)
-            startActivity(intent)
+//            val intent = Intent(this@MainActivity, DetailClubActivity::class.java)
+//            intent.putExtra("CLUB", it)
+//            startActivity(intent)
+            startActivity(intentFor<DetailClubActivity>("CLUB" to it))
             toast(it.name)
         }
         initData()
