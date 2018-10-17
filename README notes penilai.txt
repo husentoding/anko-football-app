@@ -1,0 +1,1 @@
+Maaf kak gambar nya saya load menggunakan url, jadi butuh internet

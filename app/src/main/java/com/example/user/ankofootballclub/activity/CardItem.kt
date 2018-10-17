@@ -26,6 +26,9 @@ class CardItem : AnkoComponent<ViewGroup>{
     override fun createView(ui: AnkoContext<ViewGroup>): View {
 
         clubContainer = ui.linearLayout {
+            lparams{
+                width = matchParent
+            }
             id = CONTAINER
             orientation = LinearLayout.HORIZONTAL
             padding = dip(20)

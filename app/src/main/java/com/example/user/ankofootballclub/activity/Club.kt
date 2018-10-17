@@ -4,4 +4,4 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Club(var name : String, var description : String, var image : String) : Parcelable
+data class Club(var name : String, var description : String, var image : Int) : Parcelable
